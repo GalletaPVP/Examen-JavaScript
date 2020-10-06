@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de JavaScript</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="barra">
+        <a href="ejerccio1.html">EJERCCIO 1</a>
+        <a href="ejerccio2.html">EJERCCIO 2</a>
+        <a href="ejerccio3.html">EJERCCIO 3</a>
+    </nav>
+    <div class="contenedor">
+        <h2>Practica sobre estructuras de control de Java Script</h2>
+        <div class="ejemplos">
+            <p>2.El banco “Pueblo desconocido” ha decidido aumentar el límite de crédito de las tarjetas de crédito de sus clientes, para esto considera que, si su cliente tiene tarjeta tipo 1, el aumento será de 25%; si tiene tipo 2, será de 35%; si tiene tipo 3, de 40%, y para cualquier otro tipo, de 50%. Ahora bien, si la persona cuenta con más de una tarjeta, sólo se considera la de tipo mayor o la que el cliente indique. Realice un programa para determinar el nuevo límite de crédito que tendrá una persona en su tarjeta. (considere para tipo de tarjeta un ComboBox).</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="cantidad">Ingrese la cantidad de tarjetas</label>
+                        <input type="text" id="cantidad">
+                    </div>
+                    <div class="campo">
+                        <label for="tipo">Ingresa el tipo de tarjeta (1,2,3)</label>
+                        <input type="text" id="tipo">
+                    </div>
+                    <div class="campo">
+                        <label for="bono">Si tienes mas de 2 tarjetas, escriba el tipo de tarjeta que quiere</label>
+                        <input type="text" id="bono">
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular">Calcular</button>
+                    <button id="borrar">Borrar</button>
+                </div>
+            </div>
+        </div>
+    <script src="js/algoritmo2.js"></script>
+</body>
+</html>

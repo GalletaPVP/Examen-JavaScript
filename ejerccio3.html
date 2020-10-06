@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de JavaScript</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="barra">
+        <a href="ejerccio1.html">EJERCCIO 1</a>
+        <a href="ejerccio2.html">EJERCCIO 2</a>
+        <a href="ejerccio3.html">EJERCCIO 3</a>
+    </nav>
+    <div class="contenedor">
+        <h2>Practica sobre estructuras de control de Java Script</h2>
+        <div class="ejemplos">
+            <p>3.Una asociación de vinicultores tiene como política fijar un precio inicial al kilo de uva, la cual se clasifica en tipos A y B, y además en tamaños 1 y 2. 
+                Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, por lo que se requiere determinar cuánto recibirá un productor por la uva que entrega en un embarque, considerando lo siguiente: Si es de tipo A y tamaño 1 se le cargan S/.20.00 al precio inicial, si es de tamaño 2 se cargan S/.30.00. Si es de tipo B y tamaño 1 se rebajan S/.30.00, y en caso que sea tamaño 2 se rebaja S/.50.00 desarrolle un programa para su solución.</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="precio">Ingrese el precio inicial del producto</label>
+                        <input type="text" id="precio">
+                    </div>
+                    <div class="campo">
+                        <label for="kilos">Ingrese la cantidad de kilos</label>
+                        <input type="text" id="kilos">
+                    </div>
+                    <div class="campo">
+                        <label for="tipo">Ingrese el tipo de la uva (A,B)</label>
+                        <input type="text" id="tipo">
+                    </div>
+                    <div class="campo">
+                        <label for="tamaño">Ingrese el tamaño de la uva (1,2)</label>
+                        <input type="text" id="tamaño">
+                    </div>
+                    <div class="campo">
+                        <label for="precio_final">Precio final</label>
+                        <input type="text" id="precio_final" disabled>
+                    </div>
+                    <div class="campo">
+                        <label for="total">Costo total</label>
+                        <input type="text" id="total" disabled>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular">Calcular</button>
+                    <button id="borrar">Borrar</button>
+                </div>
+            </div>
+        </div>
+    <script src="js/algoritmo3.js"></script>
+</body>
+</html>
